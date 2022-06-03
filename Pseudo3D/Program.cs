@@ -24,6 +24,7 @@ namespace Pseudo3D
 
             window.Closed += Window_Closed;
             window.Resized += Window_Resized;
+            window.KeyPressed += Window_KeyPressed;
             WindowIsOpen();
         }
 
@@ -36,8 +37,8 @@ namespace Pseudo3D
                 i++;
                 world.DrawMap();
                 window.DispatchEvents();
-                window.KeyPressed += Window_KeyPressed;
                 window.Display();
+                player.DrawPlayer();
                 if (i % 10000 == 0)
                 {
                     window.SetTitle("test, fps: " + GetFps().ToString());

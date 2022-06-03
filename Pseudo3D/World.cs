@@ -22,7 +22,7 @@ namespace Pseudo3D
         public void DrawMap()
         {
             ObjectShape circle = new ObjectShape(10, 10, 100, 10, true);
-            window.Draw(circle.getCircleShape());
+            //window.Draw(circle.getCircleShape());
 
             ObjectShape rect1 = new ObjectShape(300, 200, 100, 200, true);
             window.Draw(rect1.getRectangleShape());
