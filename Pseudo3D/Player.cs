@@ -24,7 +24,7 @@ namespace Pseudo3D
         public void DrawPlayer()
         {
             ObjectShape sh = new ObjectShape(x, y, 30, 6, false);
-            ObjectShape point = new ObjectShape(x + 23, y, 10, 5, true);
+            ObjectShape point = new ObjectShape(x, y, 10, 5, true);
             window.Clear();
             var test = sh.getCircleShape();
             var pointer = point.getRectangleShape();
