@@ -7,13 +7,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pseudo3D
+namespace Pseudo3DCommon
 {
-    public class Shape
+    public class ObjectShape
     {
-        public CircleShape getCircleShape(int x, int y, int radius, int points, bool outlines)
+        int x;
+        int y;
+        int V1;
+        int V2;
+        bool outlines;
+        public ObjectShape(int x, int y, int V1, int V2, bool outlines)
         {
-            CircleShape circleShape = new CircleShape(radius, (uint)points);
+            this.x = x;
+            this.y = y;
+            this.V1 = V1;
+            this.V2 = V2;
+            this.outlines = outlines;
+        }
+
+        public CircleShape getCircleShape()
+        {
+            CircleShape circleShape = new CircleShape(V1, (uint)V2);
             circleShape.Position = new Vector2f(x, y);
             if (outlines)
             {
@@ -23,9 +37,9 @@ namespace Pseudo3D
             return circleShape;
         }
 
-        public RectangleShape getRectangleShape(int x, int y, int height, int wight, bool outlines)
+        public RectangleShape getRectangleShape()
         {
-            RectangleShape rectShape = new RectangleShape(new Vector2f(height, wight));
+            RectangleShape rectShape = new RectangleShape(new Vector2f(V1, V2));
             rectShape.Position = new Vector2f(x, y);
             if (outlines)
             {

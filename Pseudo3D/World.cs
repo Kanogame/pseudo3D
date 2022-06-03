@@ -6,36 +6,35 @@ using System.Threading.Tasks;
 using SFML.Graphics;
 using SFML.System;
 using SFML.Window;
+using Pseudo3DCommon;
 
 namespace Pseudo3D
 {
     public class World
     {
         private RenderWindow window;
-        public Shape shape;
 
         public World(RenderWindow window)
         {
             this.window = window;
-            shape = new Shape();
         }
 
         public void DrawMap()
         {
-            CircleShape circle = shape.getCircleShape(10, 10, 100, 10, true);
-            window.Draw(circle);
+            ObjectShape circle = new ObjectShape(10, 10, 100, 10, true);
+            window.Draw(circle.getCircleShape());
 
-            RectangleShape rect1 = shape.getRectangleShape(300, 200, 100, 200, true);
-            window.Draw(rect1);
+            ObjectShape rect1 = new ObjectShape(300, 200, 100, 200, true);
+            window.Draw(rect1.getRectangleShape());
 
-            RectangleShape rect2 = shape.getRectangleShape(500, 200, 80, 100, true);
-            window.Draw(rect2);
+            ObjectShape rect2 = new ObjectShape(500, 200, 80, 100, true);
+            window.Draw(rect2.getRectangleShape());
 
-            RectangleShape rect3 = shape.getRectangleShape(500, 500, 200, 200, true);
-            window.Draw(rect3);
+            ObjectShape rect3 = new ObjectShape(500, 500, 200, 200, true);
+            window.Draw(rect3.getRectangleShape());
 
-            CircleShape Triangle = shape.getCircleShape(50, 400, 50, 3, true);
-            window.Draw(Triangle);
+            ObjectShape Triangle = new ObjectShape(50, 400, 50, 3, true);
+            window.Draw(Triangle.getCircleShape());
         }
     }
 }

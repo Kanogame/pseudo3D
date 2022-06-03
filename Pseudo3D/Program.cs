@@ -14,7 +14,7 @@ namespace Pseudo3D
         private static void intializeComponents()
         {
             world = new World(window);
-            player = new Player();
+            player = new Player(window);
         }
 
         static void Main(string[] args)
