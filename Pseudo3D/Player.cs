@@ -11,8 +11,8 @@ namespace Pseudo3D
 {
     public class Player
     {
-        private int x = 100;
-        private int y = 100;
+        private double x = 100;
+        private double y = 100;
         private int angle = 0;
         private RenderWindow window;
 
@@ -23,13 +23,13 @@ namespace Pseudo3D
 
         public void DrawPlayer()
         {
-            ObjectShape sh = new ObjectShape(x, y, 30, 6, false);
-            ObjectShape point = new ObjectShape(x, y, 10, 5, true);
+            ObjectShape sh = new ObjectShape((int)x, (int)y, 30, 6, false);
+            ObjectShape point = new ObjectShape((int)x + 20, (int)y, 10, 5, true);
             window.Clear();
             var test = sh.getCircleShape();
             var pointer = point.getRectangleShape();
             test.Origin = new Vector2f(30, 30);
-            pointer.Origin = new Vector2f(30 + 23, 30);
+            pointer.Origin = new Vector2f(30 + 20, 30);
             test.Rotation = angle;
             pointer.Rotation = angle;
             window.Draw(test);
@@ -38,24 +38,37 @@ namespace Pseudo3D
 
         public void Forward()
         {
-            x = x + (5 + 5 * (angle / 100));
-            y = y + (5 + ((angle - (angle / 2)) / 100));
+            x += 5 * Math.Cos(angle * Math.PI / 180);
+            y += 5 * Math.Sin(angle * Math.PI / 180);
         }
 
         public void Back()
         {
-            x = x - (5 * (angle / 100));
-            y = y - (5 * ((angle - (angle / 2)) / 100));
+            x -= 5 * Math.Cos(angle * Math.PI / 180);
+            y -= 5 * Math.Sin(angle * Math.PI / 180);
         }
 
         public void Left()
         {
-            angle += 5;
+            if (angle >= 360)
+            {
+                angle = 0;
+            }else
+            {
+                angle += 5;
+            }
         }
 
         public void Right()
         {
-            angle -= 5;
+            if (angle >= 360)
+            {
+                angle = 0;
+            }
+            else
+            {
+                angle -= 5;
+            }
         }
     }
 }
