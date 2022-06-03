@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "JEFC50MM+oAsoxAtDNWUdMsY4882kw5WKoxadJUElnssOth4ikZd5jeio9tllGEP4Le8iPJMd5LgE2vG1hy1DQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\OneSmiLe\\source\\repos\\Pseudo3D\\Pseudo3D\\Pseudo3D.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\OneSmiLe\\.nuget\\packages\\csfml\\2.5.0\\csfml.2.5.0.nupkg.sha512",
+    "C:\\Users\\OneSmiLe\\.nuget\\packages\\opentk\\4.7.2\\opentk.4.7.2.nupkg.sha512",
+    "C:\\Users\\OneSmiLe\\.nuget\\packages\\opentk.compute\\4.7.2\\opentk.compute.4.7.2.nupkg.sha512",
+    "C:\\Users\\OneSmiLe\\.nuget\\packages\\opentk.core\\4.7.2\\opentk.core.4.7.2.nupkg.sha512",
+    "C:\\Users\\OneSmiLe\\.nuget\\packages\\opentk.graphics\\4.7.2\\opentk.graphics.4.7.2.nupkg.sha512",
+    "C:\\Users\\OneSmiLe\\.nuget\\packages\\opentk.input\\4.7.2\\opentk.input.4.7.2.nupkg.sha512",
+    "C:\\Users\\OneSmiLe\\.nuget\\packages\\opentk.mathematics\\4.7.2\\opentk.mathematics.4.7.2.nupkg.sha512",
+    "C:\\Users\\OneSmiLe\\.nuget\\packages\\opentk.openal\\4.7.2\\opentk.openal.4.7.2.nupkg.sha512",
+    "C:\\Users\\OneSmiLe\\.nuget\\packages\\opentk.redist.glfw\\3.3.7.25\\opentk.redist.glfw.3.3.7.25.nupkg.sha512",
+    "C:\\Users\\OneSmiLe\\.nuget\\packages\\opentk.windowing.common\\4.7.2\\opentk.windowing.common.4.7.2.nupkg.sha512",
+    "C:\\Users\\OneSmiLe\\.nuget\\packages\\opentk.windowing.desktop\\4.7.2\\opentk.windowing.desktop.4.7.2.nupkg.sha512",
+    "C:\\Users\\OneSmiLe\\.nuget\\packages\\opentk.windowing.graphicslibraryframework\\4.7.2\\opentk.windowing.graphicslibraryframework.4.7.2.nupkg.sha512",
+    "C:\\Users\\OneSmiLe\\.nuget\\packages\\sfml.audio\\2.5.0\\sfml.audio.2.5.0.nupkg.sha512",
+    "C:\\Users\\OneSmiLe\\.nuget\\packages\\sfml.graphics\\2.5.0\\sfml.graphics.2.5.0.nupkg.sha512",
+    "C:\\Users\\OneSmiLe\\.nuget\\packages\\sfml.net\\2.5.0\\sfml.net.2.5.0.nupkg.sha512",
+    "C:\\Users\\OneSmiLe\\.nuget\\packages\\sfml.system\\2.5.0\\sfml.system.2.5.0.nupkg.sha512",
+    "C:\\Users\\OneSmiLe\\.nuget\\packages\\sfml.window\\2.5.0\\sfml.window.2.5.0.nupkg.sha512",
+    "C:\\Users\\OneSmiLe\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

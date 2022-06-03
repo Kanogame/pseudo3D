@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\OneSmiLe\\source\\repos\\Pseudo3D\\Pseudo3D\\Pseudo3D.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\OneSmiLe\\source\\repos\\Pseudo3D\\Pseudo3dCommon\\Pseudo3dCommon.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\OneSmiLe\\source\\repos\\Pseudo3D\\Pseudo3dCommon\\Pseudo3dCommon.csproj",
+        "projectName": "Pseudo3dCommon",
+        "projectPath": "C:\\Users\\OneSmiLe\\source\\repos\\Pseudo3D\\Pseudo3dCommon\\Pseudo3dCommon.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\OneSmiLe\\source\\repos\\Pseudo3D\\Pseudo3D\\Pseudo3D.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\OneSmiLe\\source\\repos\\Pseudo3D\\Pseudo3D\\Pseudo3D.csproj",
+        "projectName": "Pseudo3D",
+        "projectPath": "C:\\Users\\OneSmiLe\\source\\repos\\Pseudo3D\\Pseudo3D\\Pseudo3D.csproj",
+        "packagesPath": "C:\\Users\\OneSmiLe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\OneSmiLe\\source\\repos\\Pseudo3D\\Pseudo3D\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\OneSmiLe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\OneSmiLe\\source\\repos\\Pseudo3D\\Pseudo3dCommon\\Pseudo3dCommon.csproj": {
+                "projectPath": "C:\\Users\\OneSmiLe\\source\\repos\\Pseudo3D\\Pseudo3dCommon\\Pseudo3dCommon.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "OpenTK": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "SFML.Net": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\OneSmiLe\source\repos\Pseudo3D\Pseudo3dCommon\bin\Debug\Pseudo3dCommon.dll
+C:\Users\OneSmiLe\source\repos\Pseudo3D\Pseudo3dCommon\bin\Debug\Pseudo3dCommon.pdb
+C:\Users\OneSmiLe\source\repos\Pseudo3D\Pseudo3dCommon\bin\Debug\SFML.Audio.dll
+C:\Users\OneSmiLe\source\repos\Pseudo3D\Pseudo3dCommon\bin\Debug\SFML.Graphics.dll
+C:\Users\OneSmiLe\source\repos\Pseudo3D\Pseudo3dCommon\bin\Debug\SFML.System.dll
+C:\Users\OneSmiLe\source\repos\Pseudo3D\Pseudo3dCommon\bin\Debug\SFML.Window.dll
+C:\Users\OneSmiLe\source\repos\Pseudo3D\Pseudo3dCommon\bin\Debug\SFML.Audio.xml
+C:\Users\OneSmiLe\source\repos\Pseudo3D\Pseudo3dCommon\bin\Debug\SFML.Graphics.xml
+C:\Users\OneSmiLe\source\repos\Pseudo3D\Pseudo3dCommon\bin\Debug\SFML.System.xml
+C:\Users\OneSmiLe\source\repos\Pseudo3D\Pseudo3dCommon\bin\Debug\SFML.Window.xml
+C:\Users\OneSmiLe\source\repos\Pseudo3D\Pseudo3dCommon\obj\Debug\Pseudo3dCommon.csproj.AssemblyReference.cache
+C:\Users\OneSmiLe\source\repos\Pseudo3D\Pseudo3dCommon\obj\Debug\Pseudo3dCommon.csproj.CoreCompileInputs.cache
+C:\Users\OneSmiLe\source\repos\Pseudo3D\Pseudo3dCommon\obj\Debug\Pseudo3dCommon.csproj.CopyComplete
+C:\Users\OneSmiLe\source\repos\Pseudo3D\Pseudo3dCommon\obj\Debug\Pseudo3dCommon.dll
+C:\Users\OneSmiLe\source\repos\Pseudo3D\Pseudo3dCommon\obj\Debug\Pseudo3dCommon.pdb
