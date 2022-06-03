@@ -24,12 +24,12 @@ namespace Pseudo3D
         public void DrawPlayer()
         {
             ObjectShape sh = new ObjectShape((int)x, (int)y, 30, 6, false);
-            ObjectShape point = new ObjectShape((int)x + 20, (int)y, 10, 5, true);
+            ObjectShape point = new ObjectShape((int)x, (int)y, 30, 5, true);
             window.Clear();
             var test = sh.getCircleShape();
             var pointer = point.getRectangleShape();
             test.Origin = new Vector2f(30, 30);
-            pointer.Origin = new Vector2f(30 + 20, 30);
+            pointer.Origin = new Vector2f(30, 30);
             test.Rotation = angle;
             pointer.Rotation = angle;
             window.Draw(test);
